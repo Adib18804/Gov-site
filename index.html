@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang="title">নাগরিক সেবা পোর্টাল</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Minimal Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <span data-lang="welcome">নাগরিক সেবা পোর্টালে স্বাগতম</span>
+                </div>
+                <div class="col-md-6 text-end">
+                    <select id="language-switcher" class="form-select d-inline-block w-auto">
+                        <option value="bn">বাংলা</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="header-main">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://via.placeholder.com/120x40" alt="Nagorik Sheba Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-lang="nav-home">হোম</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-lang="nav-services">সেবাসমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-lang="nav-about">আমাদের সম্পর্কে</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-lang="nav-contact">যোগাযোগ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 data-lang="hero-title">নাগরিক সেবা পোর্টাল</h1>
+            <p data-lang="hero-subtitle">সকল সরকারি সেবার জন্য একটি প্ল্যাটফর্ম</p>
+            <a href="#" class="btn btn-warning" data-lang="hero-button">শুরু করুন</a>
+        </div>
+    </section>
+
+    <!-- Quick Services Section -->
+    <section class="py-4">
+        <div class="container">
+            <h2 class="text-center mb-3" data-lang="services-title">দ্রুত সেবা</h2>
+            <div class="row row-cols-2 row-cols-md-5 g-2">
+                <div class="col">
+                    <div class="card service-card">
+                        <img src="https://via.placeholder.com/50" alt="Birth Registration">
+                        <div class="card-body">
+                            <h6 data-lang="service-birth">জন্ম নিবন্ধন</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card service-card">
+                        <img src="https://via.placeholder.com/50" alt="Death Registration">
+                        <div class="card-body">
+                            <h6 data-lang="service-death">মৃত্যু নিবন্ধন</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card service-card">
+                        <img src="https://via.placeholder.com/50" alt="Passport Services">
+                        <div class="card-body">
+                            <h6 data-lang="service-passport">পাসপোর্ট সেবা</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card service-card">
+                        <img src="https://via.placeholder.com/50" alt="Tax Payment">
+                        <div class="card-body">
+                            <h6 data-lang="service-tax">কর পরিশোধ</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card service-card">
+                        <img src="https://via.placeholder.com/50" alt="Utility Bill">
+                        <div class="card-body">
+                            <h6 data-lang="service-utility">ইউটিলিটি বিল</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="text-center mb-3" data-lang="news-title">সর্বশেষ খবর</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="New Service">
+                        <div class="card-body">
+                            <h5 class="card-title" data-lang="news-1-title">নতুন সেবা চালু</h5>
+                            <p class="card-text" data-lang="news-1-text">নতুন অনলাইন সেবা চালু করা হয়েছে।</p>
+                            <a href="#" class="btn btn-primary" data-lang="news-read-more">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Portal Update">
+                        <div class="card-body">
+                            <h5 class="card-title" data-lang="news-2-title">পোর্টাল আপডেট</h5>
+                            <p class="card-text" data-lang="news-2-text">পোর্টালে নতুন ফিচার যুক্ত হয়েছে।</p>
+                            <a href="#" class="btn btn-primary" data-lang="news-read-more">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Service Notice">
+                        <div class="card-body">
+                            <h5 class="card-title" data-lang="news-3-title">সেবা বন্ধের নোটিশ</h5>
+                            <p class="card-text" data-lang="news-3-text">৫ জুন ২০২৫ রক্ষণাবেক্ষণের জন্য।</p>
+                            <a href="#" class="btn btn-primary" data-lang="news-read-more">বিস্তারিত</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 data-lang="footer-about-title">নাগরিক সেবা সম্পর্কে</h5>
+                    <p data-lang="footer-about-text">সরকারি সেবার জন্য একটি সহজ প্ল্যাটফর্ম।</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 data-lang="footer-links-title">লিঙ্ক</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" data-lang="footer-link-privacy">গোপনীয়তা নীতি</a></li>
+                        <li><a href="#" data-lang="footer-link-terms">শর্তাবলী</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 data-lang="footer-contact-title">যোগাযোগ</h5>
+                    <p data-lang="footer-contact-email">ইমেল: support@nagoriksheba.gov.bd</p>
+                    <p data-lang="footer-contact-phone">ফোন: +৮৮০-১২৩-৪৫৬-৭৮৯০</p>
+                </div>
+            </div>
+            <p class="text-center mt-3" data-lang="footer-copyright">© ২০২৫ নাগরিক সেবা পোর্টাল</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Language Switcher -->
+    <script src="script.js">
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
